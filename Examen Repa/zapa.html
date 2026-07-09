@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es"> 
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generales</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(fondo3.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color:rgb(3, 2, 2); 
+    padding: 15px;       
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: rgb(176, 176, 184);        
+    text-decoration: none;   
+    margin: 0 10px;         
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.tarjetas{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:20px;
+}
+
+.tarjeta{
+width: 300px;
+padding:15px;
+background:rgba(0, 0, 0, 0.6);
+border-radius:15px;
+}
+
+.tarjeta img{
+width: 90%;
+height: 200px;
+border-radius:10px;
+object-fit:cover;
+}
+
+button{
+padding:10px;
+background:brown;
+border:none;
+color:rgb(3, 3, 3);
+border-radius:10px;
+cursor:pointer;
+}
+
+button:hover{
+background:darkred;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        margin: auto;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="presentacion.html">QUIENES SOMOS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"><General></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">SPORTSGT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="zapa.html">ZAPATOS Y CAMISAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">PEDIDOS</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+
+    <h2>ZAPATOS</h2>
+
+    <div class="tarjetas">
+        <div class="tarjeta">
+<img src="zapa1.jpg">
+<h3>ADIDAS CELESTE</h3>
+<p>Q.900</p>
+
+        </div>
+
+<div class="tarjetas">
+<div class="tarjeta">
+<img src="zapa2.jpg">
+<h3>ADIDAS ROSADO</h3>
+<p>Q.1000</p>
+
+</div>
+
+</div> 
+<div class="tarjetas">
+<div class="tarjeta">
+<img src="zapa3.jpg">
+<h3>ADIDAS MESSI</h3>
+<p>Q.1500</p>
+</div> 
+ <div class="tarjetas">
+<div class="tarjeta">
+<img src="zapa4.jpg">
+<h3>ADIDAS ROJINEGRO</h3>
+<p>	Q.1000</p>
+</div>
+</div>
+ <div class="tarjetas"> 
+<div class="tarjeta">
+<img src="zapa5.jpg">
+<h3>ADIDAS ACUA</h3>
+<p>Q.950</p>
+</div>
+</div> 
+<div class="tarjetas">
+<div class="tarjeta">
+<img src="zapa6.jpg">
+<h3>ADIDAS ROJIBLANCO</h3>
+<p> Q.1100</p>
+</div>
+</div> 
+<div class="tarjetas">
+<div class="tarjeta">
+<img src="zapa7.jpg">
+<h3>ADIDAS BLANCO</h3>
+<p>Q.1200</p>
+</div>
+</div> 
+<div class="tarjetas">
+<div class="tarjeta">
+<img src="zapaa.jpg">
+<h3>ADIDAS VERDES</h3>
+<p>Q.1150</p>
+</div>
+</div> 
+<div class="tarjetas">
+<div class="tarjeta">
+<img src="zapa9.jpg">
+<h3>ADIDAS AMARILLOS</h3>
+<p>Q.1200</p>
+</div>
+</div>
+ <div class="tarjetas"> 
+<div class="tarjeta">
+<img src="zapa10.jpg">
+<h3>ADIDAS NEGRO</h3>
+<p>Q. 1300</p>
+
+</div>
+
+
+<H2>CAMISAS</H2>
+<div class="tarjetas"> 
+  
+<div class="tarjeta">
+<img src="cami1.jpg">
+<h3>BRASIL 2026</h3>
+<p>  Q.550</p>
+
+
+</div>
+ <div class="tarjetas"></div>
+<div class="tarjeta">
+<img src="cami2.jpg">
+<h3>ALEMANIA 2026</h3>
+<p>Q.550</p>
+
+</div>
+ <div class="tarjetas"></div>
+<div class="tarjeta">
+<img src="cami3.jpg">
+<h3>ARGENTINA 2026</h3>
+<p>Q.550</p>
+
+</div>
+<div class="tarjeta">
+<img src="cami4.jpg">
+<h3>GUATEMALA 2026</h3>
+<p>Q.550</p>
+
+</div> 
+<div class="tarjetas"></div>
+<div class="tarjeta">
+<img src="cami5.jpg">
+<h3>COLOMBIA 2026</h3>
+<p>Q.550</p>
+
+</div> 
+<div class="tarjetas"></div>
+<div class="tarjeta">
+<img src="cami6.jpg">
+<h3>PORTUGAL 2026</h3>
+<p>Q.550</p>
+
+</div> 
+<div class="tarjetas"></div>
+<div class="tarjeta">
+<img src="cami7.jpg">
+<h3>ESPAÑA 2026</h3>
+<p>Q.550</p>
+</div> 
+<div class="tarjetas"></div>
+<div class="tarjeta">
+<img src="cami8.jpg">
+<h3>URUGUAY 2026</h3>
+<p>Q.550</p>
+</div> 
+<div class="tarjetas"></div>
+<div class="tarjeta">
+<img src="cami9.jpg">
+<h3>NORUEGA 2026</h3>
+<p>Q.550</p>
+
+
+</div>
+<div class="tarjetas"></div>
+<div class="tarjeta">
+<img src="cami10.jpg">
+<h3>MEXICO 2026</h3>
+<p>Q.550</p>
+
+
+</div>
+
+<script>
+document.getElementById("menu-toggle").onclick = function () {
+    document.getElementById("nav-links").classList.toggle("active");
+};
+</script>
+
+
+</div> 
+
+</body>
+</html>
